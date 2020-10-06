@@ -439,7 +439,7 @@ func (ts *syncTestSystem) master() {
 		ts.waitForServer()
 	}
 	if ts.mode == doClientToServer {
-	    ts.waitForServer()
+		ts.waitForServer()
 	}
 	// Made it!
 }

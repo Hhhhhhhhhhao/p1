@@ -312,4 +312,3 @@ func TestCorruptedMsgClient(t *testing.T) {
 		setDescription("TestCorruptedMsgClient: client should identify corrupted messages").
 		testClientWithCorruptedMsg(2000)
 }
-
